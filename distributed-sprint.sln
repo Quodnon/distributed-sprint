@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "distributed-sprint", "distributed-sprint\distributed-sprint.fsproj", "{73CC9DDC-D1DB-4838-A827-1635339E68D0}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.fsproj", "{1D352D6B-B6CB-49EB-AB64-AAD2AECAE46D}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.fsproj", "{1D352D6B-B6CB-49EB-AB64-AAD2AECAE46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloHost1", "SiloHost1\SiloHost1.csproj", "{4CCF302C-C609-4311-BE41-40836AEB5013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1D352D6B-B6CB-49EB-AB64-AAD2AECAE46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D352D6B-B6CB-49EB-AB64-AAD2AECAE46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D352D6B-B6CB-49EB-AB64-AAD2AECAE46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCF302C-C609-4311-BE41-40836AEB5013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCF302C-C609-4311-BE41-40836AEB5013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCF302C-C609-4311-BE41-40836AEB5013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCF302C-C609-4311-BE41-40836AEB5013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
